@@ -1,8 +1,7 @@
 import { test, expect } from '@playwright/test';
 
-/**
- * Test: Navigate to a specific sport and ensure proper page and tab are loaded.
- */
+// Test: Navigate to a specific sport and ensure proper page and tab are loaded.
+
 test('Check Sport Sorting - Tennis', async ({ page }) => {
   await page.goto('/');
   await page.click('text=A-Z Sports');
