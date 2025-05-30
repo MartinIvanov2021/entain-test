@@ -1,9 +1,8 @@
 import { test, expect } from '@playwright/test';
 import { selectors } from '../utils/selectors';
 
-/**
- * Test: Add a live pick to the betslip and validate it appears correctly.
- */
+// Test: Add a live pick to the betslip and validate it appears correctly.
+
 test('Add pick to Betslip', async ({ page }) => {
   await page.goto('/');
   await page.waitForLoadState('domcontentloaded');
