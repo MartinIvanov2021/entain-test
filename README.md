@@ -12,8 +12,8 @@ Features Tested
 
 
 1. Clone Repository
-git clone https://github.com/MartinIvanov2021/bwin-live-tests.git
-cd bwin-live-tests
+git clone https://github.com/MartinIvanov2021/entain-test.git
+cd entain-test
 
 2. Install Dependencies
 npm install
