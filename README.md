@@ -24,7 +24,6 @@ Running Tests
 All tests (desktop + mobile)
 npm test
 
-
 With UI viewer
 npm run test:ui
 
@@ -37,4 +36,15 @@ Folder Structure
 - utils/: Shared selectors and helper functions
 - playwright.config.ts: Configuration for browser/devices
 
+Explanation of the Approach
+- This automation framework uses Playwright with TypeScript to simulate user interactions and validate UI behaviors on a live sports betting website. The tests are designed with a modular structure for maintainability and reliability.
 
+- Dynamic Element Handling: Live data such as odds and events are constantly updating. To accommodate this, the test scripts include polling logic and flexible selectors to wait for changes and interact with real-time elements.
+
+- Selector Reuse: Common element selectors are defined in a separate utility file (selectors.ts) to ensure consistency and reduce duplication across tests.
+
+- Viewport Responsiveness: Tests are configured to run on both desktop and mobile emulations using Playwright's built-in device emulation. This validates the responsive layout of the live betting page.
+
+- Isolated Tests: Each test is scoped to validate a specific functionality independently (e.g., odds change detection, betslip behavior, sport sorting). This modular approach ensures test clarity and maintainability.
+
+- Headless by Default: Tests are executed in headless mode for speed, but can be viewed in the UI mode for debugging.
