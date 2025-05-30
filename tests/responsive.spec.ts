@@ -1,8 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-/**
- * Test: Ensure the Live Betting page is responsive.
- */
+// Test: Ensure the Live Betting page is responsive.
 
 test.describe('Responsive Design Test', () => {
   test('Desktop viewport', async ({ page }) => {
