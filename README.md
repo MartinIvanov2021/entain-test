@@ -12,7 +12,7 @@ Features Tested
 
 
 1. Clone Repository
-git clone https://github.com/YOUR_USERNAME/bwin-live-tests.git
+git clone https://github.com/MartinIvanov2021/bwin-live-tests.git
 cd bwin-live-tests
 
 2. Install Dependencies
