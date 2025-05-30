@@ -12,10 +12,8 @@ Features Tested
 
 
 1. Clone Repository
-```bash
 git clone https://github.com/YOUR_USERNAME/bwin-live-tests.git
 cd bwin-live-tests
-```
 
 2. Install Dependencies
 npm install
