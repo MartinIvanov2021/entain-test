@@ -2,9 +2,8 @@ import { test, expect } from '@playwright/test';
 import { selectors } from '../utils/selectors';
 import { waitForOddsChange } from '../utils/helpers';
 
-/**
- * Test: Verify that live odds update without a page refresh and display change indicators.
- */
+// Test: Verify that live odds update without a page refresh and display change indicators.
+
 test('Validate Live Odds Update', async ({ page }) => {
   await page.goto('/');
 
