@@ -9,13 +9,13 @@ Features Tested
 - Sport tab sorting
 - Responsive layout (desktop and mobile)
 
-
+Install Prerequisites Node.js (v18 or higher)
 
 1. Clone Repository
 git clone https://github.com/MartinIvanov2021/entain-test.git
 cd entain-test
 
-2. Install Dependencies
+2. Install Dependencies and Playwrright browser
 npm install
 npx playwright install
 
