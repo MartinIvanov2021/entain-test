@@ -19,8 +19,7 @@ test.describe('Responsive Design Test', () => {
 
       const confirm_data_column = page.locator('ms-main-column');
       await expect(confirm_data_column).toBeInViewport();
-      //await expect(test1).toBeVisible()
-      //await expect(page.locator('#header')).toBeVisible();
+    
     }
   });
 
